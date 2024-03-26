@@ -36,3 +36,38 @@ a^(p-2) = 3^(7-2) = 3^5 = 243 [= (7*34=238) r 5] is 5 mod 7
 verify: 3 x 5 = 15 is 1 mod 7 (so, should have spotted it from answer to Q1)
 
 NOTE: multiplicative operation used to get identity i.e. 1 (mod 7) ... in this particular case
+
+Question 2
+
+Polynomials
+
+For the polynomial x^3 - 2x^2 - 2x - 3
+Find a positive root
+What is the degree of this polynomial ?
+Rewrite this in the form
+(x - a). Q(x)
+
+For now, educated guess, let x = 3.
+3^3 - 2.3^2 - 2.3 - 3 = 27 - 2.9 - 2.3 - 3 = 27 -18 -6 -3 = 0 ergo 3 is (one possible) root
+polynomial is of degree = 3 (spot: x^3)
+rewrite:
+a is a known root:
+(x - 3)
+
+workings:
+(x-3).x^2 = x^3 - 3.x^2
+
+x^3 - 2x^2 - 2x - 3 = (x^3 - 3.x^2) + (x^2 - 2x - 3) = (x-3).x^2 + (x^2 - 2x - 3)
+
+(x-3).x = x^2 - 3.x
+
+x^2 - 2x -3 = (x^2 - 3.x) + (x - 3) = (x-3).x + (x-3)
+
+put it together:
+
+x^3 - 2x^2 - 2x - 3 = (x-3).x^2 + (x-3).x + (x-3) = (x-3)(x^2 + x + 1)
+
+check:
+(x-3)(x^2 + x + 1) = x^3 + x^2 + x - 3.x^2 - 3.x - 3 = x^3 + (1-3)x^2 + (1-3)x - 3 = x^3 - 2x^2 - 2x - 3 
+
+so answer to (x - a). Q(x) is (x-3)(x^2 + x + 1)
