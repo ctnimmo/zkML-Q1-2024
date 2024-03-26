@@ -34,3 +34,5 @@ So answer to b, let a =3, then:
 a^(p-2) = 3^(7-2) = 3^5 = 243 [= (7*34=238) r 5] is 5 mod 7 
 
 verify: 3 x 5 = 15 is 1 mod 7 (so, should have spotted it from answer to Q1)
+
+NOTE: multiplicative operation used to get identity i.e. 1 (mod 7) ... in this particular case
